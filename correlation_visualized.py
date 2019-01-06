@@ -20,7 +20,7 @@ def visualize_data():
     else:
         df_corr = pd.read_csv('sp500_correlation.csv',parse_dates=True,index_col=0)
 
-    # print(df_corr)
+    #print(df_corr)
     data = df_corr.values  #represents the data as a numpy matrix instead of dataFrame layout
     #print(data[:5])
 

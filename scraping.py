@@ -7,7 +7,7 @@ import requests
 import pickle   #saves the tickers in a file so we do not have to extract data from web everytime which takes memory
 
 
-'''Purpose of this py file is to scrape the list of S&P 500 companies tickers from WikiPedia page'''
+'''=======================================Purpose of this py file is to scrape the list of S&P 500 companies tickers from WikiPedia page==================================='''
 
 def save_sp500_ticker():
     resp = requests.get('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'); #this gives us permission to access the data
@@ -31,7 +31,8 @@ def save_sp500_ticker():
         pickle.dump(tickers,file) #you put ticker in it
     #print(tickers)
     return tickers
-
+    
+'''when you trying to create pickle file for the first time, uncomment the function line below save_sp500_ticker()'''
 #save_sp500_ticker();
 
 def get_data(reload_sp500 = False):
