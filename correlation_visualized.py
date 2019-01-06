@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import style
 
-'''Importing data from my old py file'''
+'''Importing data from my old py file although infact i didn't use it in the end'''
 import scraping as sp
 
 '''===================================================https://youtu.be/PxUzcDJBEZ4========================================================'''
@@ -52,6 +52,7 @@ def visualize_data():
     heatmap.set_clim(-1,1) #min and max of colorbar and since correlation only goes between (-1,1)
     plt.tight_layout()
     plt.title('Correlation heatmap of S&P500 stocks')
+    #plt.savefig()
     plt.show()
 
     '''There is so much data, that to appreciate the graph fully, you need to
