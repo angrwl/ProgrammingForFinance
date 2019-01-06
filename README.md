@@ -21,6 +21,12 @@ Further more, when plotting **candlestick_ohlc** graphs, he uses module `matplot
 advice you to download (if not already done so) the module `mpl_finance` by doing the command `pip install mpl_finance` on the terminal 
 of a windows computer. And then on py file, write `from mpl_finance import candlestick_ohlc`
 
+## Quantopian 
+
+Sentdex moves on to coding in a website called **quantopian** halfway which allows easier access to pricing data and many more
+cool tricks. Once I am finished with the whole series, I will upload the **ipython notebooks** here; however to run these notebooks, 
+you will need to create an account at `quantopian.com` to be able to make use of their in-built functions. 
+
 ## More Info
 
 The folder named `Practices_few_episodes` is me myself trying to understand what is going on in his starting few episodes 
